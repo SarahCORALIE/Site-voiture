@@ -1,0 +1,195 @@
+/***************** Sarah CORALIE *****************/
+/*************************************************/
+*
+{
+    font-family: sans-serif;
+    box-sizing: border-box !important;
+}
+#carouselExampleSlidesOnly
+{
+   overflow: hidden; 
+   height: 75vh;
+}
+header
+{
+    min-height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.container1
+{
+    z-index: 0;
+    min-height: fit-content;
+    align-self: flex-end;
+    height: 75vh;
+}
+#entete
+{   
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column; 
+}
+.menuBurger
+{
+    height:fit-content;
+    text-align: right;
+    margin: 0 2%;
+}
+.menuToggle
+{
+    background-color: #fff;
+    padding: 1%;   
+}
+.menuToggle li
+{
+    list-style: none;
+    font-size: 1.5vw;
+}
+.fa-bars
+{
+    color: white;
+    font-size: 3vw;
+    text-align: end;
+    opacity: 0.8;
+}
+
+h1
+{
+    color: white;
+    font-size: 1.5rem;
+    opacity: 0.8;
+    text-align: center;
+}
+#titre2
+{
+    margin-bottom: 50vh;
+}
+h4
+{
+    color: white;
+    font-size: 1rem;
+    font-weight: lighter;
+    opacity: 0.8;
+    text-align: center;
+}
+#navigation
+{
+    min-height: 8vh;
+    position: relative;
+    bottom: 0;
+}
+nav
+{
+    box-sizing: border-box;
+    background-color: #fff;
+    opacity: 0.8;
+    padding: auto;
+    margin: 0;
+    width: 75%;
+    height: 8vh;
+}
+.input
+{
+    text-align: center!important;
+    margin: 0 1% !important;
+}
+.valider
+{
+    min-height: 8vh;
+    opacity: 0.8; 
+    background-color: #28a745; 
+    display: inline-block;
+    width: 25%;
+    align-self: end;
+    margin: 0;
+    text-align: center;
+    align-content: center;
+}
+.valider:hover
+{
+    box-shadow: -2px -2px 5px white;
+}
+.valider:hover, .input:hover,#tri:hover,.menuBurger:hover
+{
+    cursor: pointer;
+}
+
+/* catalogue ********************************/
+/********************************************/
+ 
+ /* ligne résultats + tri *******************/
+ .triEtResultas
+ {
+     padding: 2%;
+ }
+ #tri
+ {
+     padding: 1%;
+     border-radius: 5px;
+     background-color: rgb(247, 245, 245);
+ }
+
+ /*Catalogue**********************************/
+ .article
+ {   
+     border-bottom: 2px solid  rgb(206, 204, 204);
+     padding: 2%;
+     margin: 2% 0;
+ }
+
+    /*Carousel******************/
+    #carouselExampleControls span
+    {
+        color: black;
+    }
+
+    /*article********************/
+    .card
+    {
+        border: none ! important;
+        margin-left: 5%;
+    }
+
+
+/*Footer***************************/
+.footer
+{
+    height: 25vh;
+    width: 100%;
+}
+.footer article
+{
+    font-size: 1vw;
+} 
+.footer .bold
+{
+    font-weight: bold;
+}  
+.footer .icon
+{
+    background-color: black;
+    border-radius: 50%;
+    font-family: italic;
+    color: white;
+}
+.agence
+{
+    max-height: 25vh;
+}
+footer
+{
+    height: 30vh;
+    padding: auto;
+}
+/********************************/
+@media screen and (max-width:780px) 
+{
+    .article p,.article h5
+    {
+        display: none;
+    }
+}
