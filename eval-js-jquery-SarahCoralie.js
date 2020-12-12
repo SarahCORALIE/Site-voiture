@@ -18,8 +18,13 @@ $('.fa-bars').on('click', function()
 //-------------------------------------
 /*   var listeArticles = $('div.article');
     console.log($('div.article'))
-
     
-
 */
+
+// $(window).scroll(fonction(),{
+//     if ( $(window).scrollTop() + $(window).height() == $(document).height())
+//     {
+//         $('.article.hiden').show();
+//     }
+// });
 });

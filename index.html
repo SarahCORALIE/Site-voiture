@@ -17,13 +17,13 @@
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                      <img src="img/background.jpg" class="d-block w-100" alt="voiture luxueuse de profil">
+                      <img src="img/background.jpg" class="d-block " alt="voiture luxueuse de profil">
                   </div>
                   <div class="carousel-item">
-                    <img src="img/background2.jpg" class="d-block w-100" alt="un garage vintage">
+                    <img src="img/background2.jpg" class="d-block " alt="un garage vintage">
                   </div>
                   <div class="carousel-item">
-                    <img src="img/background3.jpg" class="d-block w-100" alt="intérieur de voiture vintage">
+                    <img src="img/background3.jpg" class="d-block " alt="intérieur de voiture vintage">
                   </div>
                 </div>
                 
@@ -57,25 +57,24 @@
                             <h4 class="col-md-4">Location de véhicules 24h/24 et 7j/7</h4>
                         </div>
 
-            <!-- barre de navigation -->
-                        <div class="row justify-content-between align-items-center" id="navigation">
-                            <nav class="col-md-10 ">
-                                <select class="input" name="adresse" id="adresse">
-                                    <option value="1">Adresse de départ</option>
-                                    <option value="">-----------</option>
-                                    <option value="">-----------</option>
-    
-                                </select>
-                                <input class="input" type="date" name="locationDebut" id="locationDebut" >
-                                <input class="input" type="date" name="locationFin" id="locationFin" >
-                                
-                             </nav>  
-                             <span class=" col-md-2 valider">Valider</span>            
-                        </div>
-                   </section>   
-                </section>
-
               </div>
+              <!-- barre de navigation -->
+              <div class="row justify-content-between align-items-center" id="navigation">
+                <nav class="col-ms  my-auto">
+                    <select class="input" name="adresse" id="adresse">
+                        <option value="" selected disabled>Adresse de départ</option>
+                        <option value="">-----------</option>
+                        <option value="">-----------</option>
+
+                    </select>
+                    <input class="input" type="date" name="locationDebut" id="locationDebut" placeholder="Début de location">
+                    <input class="input" type="date" name="locationFin" id="locationFin" >
+                    
+                 </nav>  
+                 <span class=" col-ms  valider">Valider ma recherche</span>            
+            </div>
+       </section>   
+    </section>
           
             
             
@@ -84,8 +83,8 @@
 
             <!------- ligne résultats + tri ------------->
             <div class="row justify-content-between triEtResultas">
-                <p class="col-md-2" id="resultats"> 7 Résultats</p>
-                <select name="tri" id="tri" class="col-md-2">
+                <p class="col-ms-2" id="resultats"> 7 Résultats</p>
+                <select name="tri" id="tri" class="col-ms-2">
                     <option value="pertinence">Pertinence</option>
                     <option value="prixCroisants">Prix croisants</option>
                     <option value="prixDecroisants">Prix décroisants</option>                   
@@ -123,7 +122,7 @@
                 </div>
 
                 <!-- texte ----------->
-                <div class="col-5 ">
+                <div class="col-5 bouton ">
                     <div class="card w-100">
                         <div class="card-body">
                           <h5 class="card-title">Peugeot 208</h5>
@@ -415,8 +414,8 @@
         <footer class="container-fluid">
             <div class="container">
                 <div class="row justify-content-center align-items-center footer">
-                    <img src="img/agence.jpg" alt="" class="col-3 agence">
-                    <p class="col-3">
+                    <img src="img/agence.jpg" alt="" class="col-ms agence">
+                    <p class="col-ms">
                         Notre Agence de <span class="bold">Paris</span>
                         <br>
                         300 boulevard de Vaugirard,75015, Paris
