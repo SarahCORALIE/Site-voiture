@@ -17,8 +17,13 @@ $('.carousel-control-next-icon').on('click', function(){
 });
 
 // RENDRE ACTIVES LES FLECHES PREVIOUS ET NEXT POUR TOUS LES CAROUSELS ARTICLE
+
 //let carouselArticle = $('.carousel_article')
 //console.log ('test carouselArticle',carouselArticle)
+
+//--------------------
+// essaie 1
+//--------------------
 
 // $.each(carouselArticle, function(item){
 
@@ -35,6 +40,10 @@ $('.carousel-control-next-icon').on('click', function(){
 //         }); 
 // }) 
 
+//-------------------
+// essaie 2
+//-------------------
+
 // $('.carousel-control-prev-icon').on('click', function(){
 //     console.log( 'test clic sur previous');
 //     $.each(carouselArticle, function(item)
@@ -49,8 +58,6 @@ $('.carousel-control-next-icon').on('click', function(){
 //     console.log( 'test clic sur next');
 //     $(this.parent).carousel('next');
 // });
-
-
 
 
 $(document).ready(function(){
