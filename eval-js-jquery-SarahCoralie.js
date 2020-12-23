@@ -5,6 +5,54 @@ $('#carouselExampleSlidesOnly').carousel({
     pause: false
 });
 
+// RENDRE ACTIVES LES FLECHES PREVIOUS ET NEXT DU 1ER CAROUSEL ARTICLE
+$('.carousel-control-prev-icon').on('click', function(){
+    console.log( 'test clic sur previous');
+    $('#carouselExampleControls-1').carousel('prev');
+});
+
+$('.carousel-control-next-icon').on('click', function(){
+    console.log( 'test clic sur next');
+    $('#carouselExampleControls-1').carousel('next');
+});
+
+// RENDRE ACTIVES LES FLECHES PREVIOUS ET NEXT POUR TOUS LES CAROUSELS ARTICLE
+//let carouselArticle = $('.carousel_article')
+//console.log ('test carouselArticle',carouselArticle)
+
+// $.each(carouselArticle, function(item){
+
+//     $('item .carousel-control-prev-icon').on('click', function(){
+//             console.log( 'test clic sur previous');
+//             $(item).carousel('prev');
+//             console.log (item);
+//         });
+        
+//         $('.carousel-control-next-icon').on('click', function(){
+//             console.log( 'test clic sur next');
+//             $(this.parent).carousel('next');
+
+//         }); 
+// }) 
+
+// $('.carousel-control-prev-icon').on('click', function(){
+//     console.log( 'test clic sur previous');
+//     $.each(carouselArticle, function(item)
+//     {     
+//        // $(item).carousel('prev');
+//         console.log ('test item' ,item);
+//         console.log ('test this', this);
+    
+//     }); 
+// }); 
+// $('.carousel-control-next-icon').on('click', function(){
+//     console.log( 'test clic sur next');
+//     $(this.parent).carousel('next');
+// });
+
+
+
+
 $(document).ready(function(){
 
 // menu déroulant

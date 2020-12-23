@@ -3,7 +3,7 @@
 *
 {
     font-family: sans-serif;
-    box-sizing: border-box !important;
+    /* box-sizing: border-box !important; */
 }
 #carouselExampleSlidesOnly
 {
@@ -99,7 +99,6 @@ h4
 }
 nav
 {
-
     display: flex;
     background-color: #fff;
     opacity: 0.8;
@@ -123,9 +122,8 @@ nav
     color: white;
     display: inline-block;
     width: 30%;
-    margin: 0;
+    margin: auto;
     text-align: center;
-    padding: auto;
 }
 .valider:hover
 {
@@ -152,14 +150,40 @@ nav
  }
 
  /*Catalogue**********************************/
- .article
- {   
-     border-bottom: 2px solid  rgb(206, 204, 204);
-     padding: 2%;
-     margin: 2% 0;
- }
+    /*carousel*/
+    .carousel-control-prev-icon 
+    {
+    height: 30px;
+    width: 30px;
+    outline: black;
+    background-size: 100%, 100%;
+    background-image: url(img/previous.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    position: relative;
+    left: -3vw;
+    }
+    .carousel-control-next-icon 
+    {
+    height: 30px;
+    width: 30px;
+    outline: black;
+    background-size: 100%, 100%;
+    background-image: url(img/next.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    position: relative;
+    left: 3vw;
+    }
+    
 
     /*article********************/
+    .article
+    {   
+        border-bottom: 2px solid  rgb(206, 204, 204);
+        padding: 2%;
+        margin: 2% 0;
+    }
     .card
     {
         border: none ! important;
@@ -241,8 +265,7 @@ footer
     {
         font-size: 1.5vw;
         position: relative;
-        right: -7vw;
-       
+        right: -7vw;  
     }
 }
 /********************************************/
@@ -267,13 +290,13 @@ footer
         text-align: start!important;
     }
     .valider:hover
-{
-    box-shadow: 2px 2px 5px white;
-}
-    main
     {
-        position: relative;
-        top: -25vh;
-    }   
+        box-shadow: 2px 2px 5px white;
+    }
+    .footer p
+    {
+        font-size: 1.5vw;
+    } 
+    
 }
 
