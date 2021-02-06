@@ -5,6 +5,10 @@
     font-family: sans-serif;
     /* box-sizing: border-box !important; */
 }
+body
+{
+    overflow-x: hidden;
+}
 #carouselExampleSlidesOnly
 {
    overflow: hidden; 
