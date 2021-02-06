@@ -141,6 +141,8 @@ nav
  .triEtResultas
  {
      padding: 2%;
+     position: relative;
+     z-index: 5;
  }
  #tri
  {
